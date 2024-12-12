@@ -1,0 +1,104 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1c1c1c;
+    color: #fff;
+}
+
+header {
+    background: #252525;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 4px solid #4caf50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav {
+    background: #252525;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #4caf50;
+}
+
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: relative;
+}
+
+
+
+
+
+main {
+    padding: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #2a2a2a;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main section h2 {
+    color: #4caf50;
+    border-bottom: 3px solid #4caf50;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #252525;
+    color: #f0f0f0;
+    border-top: 4px solid #4caf50;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.skills {
+    margin-top: 15px;
+}
+
+.progress {
+    background: #3a3a3a;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px 0;
+    height: 20px;
+    width: 100%;
+}
+
+.progress span {
+    display: block;
+    height: 100%;
+    background: #4caf50;
+}
